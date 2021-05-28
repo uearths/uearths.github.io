@@ -9,11 +9,43 @@
     <link rel="shortcut icon" type="image/x-icon" href="./mlogo.png">
 
     <style>
+         @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        h1{
+            font-family: 'Gothic A1', sans-serif;
+            margin-top: 80px;
+            text-align: center;
+            display: block;
+            
+        }
+
+        h2, h3{
+            font-family: 'Gothic A1', sans-serif;
+            margin-top: 8%;
+            text-align: center;
+            display: block;
+        }
+
+        img{
+            margin: auto;
+            display: block;
+        }
 
     </style>
 
 </head>
 
 <body>
-    페이지 준비중입니다.
+
+    <h1>[ 　　페이지 준비중입니다. 　　]</h1><br><br>
+    <img src="./logo.png" alt="Loading..." width="600rem" >
+    <h2> 최대한 빠르게 페이지를 구축하겠습니다.<br><br>이용해주셔서 감사합니다.</h2>
+    <h3>3초 뒤에 이전 페이지로 돌아갑니다.</h3>
+
+    <script type="text/javascript">
+
+        alert("준비중입니다.");
+        setTimeout(function() {
+            window.history.back()
+        }, 3100);
+      </script>
 </body>
